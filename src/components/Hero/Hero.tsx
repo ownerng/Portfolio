@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
         docker
       </p>
       <div className="flex flex-row space-x-4">
-       <Button text={"Contact me"} redirect={'#contact'}/> 
+       {/*<Button text={"Contact me"} redirect={'#contact'}/>*/} 
        <Button text={"Projects"} redirect={'#projects'}/> 
       </div>
     </section>
