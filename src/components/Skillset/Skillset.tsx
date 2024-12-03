@@ -3,7 +3,6 @@ import React from 'react';
 const skills = [
   "python", "fastapi", "django", "tailwindcss", "react",  
   "postgresql", "nodejs", "typescript", "git",
-  "flutter"
 ];
 
 export const Skillset: React.FC = () => {
@@ -13,12 +12,12 @@ export const Skillset: React.FC = () => {
       <p className="text-gray-500 mb-8">
         Here are some of the cutting-edge technologies, programming languages and productivity tools that I use.
       </p>
-      <div className="grid grid-cols-5 grid-rows-2 gap-4 mx-16">
+      <div className="grid grid-cols-4 grid-rows-2 gap-4 mx-16">
         {skills.map(skill => (
-          <div key={skill} className="flex justify-center items-center">
-            <img src={`/icons/${skill}.svg`} alt={skill} className="w-12 h-12"/>
-            <h1 className='text-center font-medium text-2xl ml-2'>{skill}</h1>
-          </div>
+          <div key={skill} className="bg-white rounded-lg p-6 shadow-md flex flex-col justify-center items-center">
+          <img className='w-12 h-12' src={`/icons/${skill}.svg`} />
+          <p className="text-gray-600">{skill}</p>
+        </div>
         ))}
       </div>
     </section>
