@@ -1,6 +1,6 @@
 import { ButtonProps } from "../../types/components";
 
-export const Button = ({ text }: ButtonProps) => {
+export const Button = ({ text, redirect }: ButtonProps) => {
     return (
         /* From Uiverse.io by pruthivithejan */ 
 <div className="flex justify-center items-center gap-12 h-full">
@@ -14,7 +14,7 @@ export const Button = ({ text }: ButtonProps) => {
         className="bg-gradient-to-b from-stone-200/40 to-white/80 rounded-[8px] px-2 py-2"
       >
         <div className="flex gap-2 items-center">
-          <a href=""><span className="font-semibold">{text}</span></a>
+          <a href={redirect}><span className="font-semibold">{text}</span></a>
         </div>
       </div>
     </button>
