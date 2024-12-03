@@ -9,7 +9,7 @@ export const Header: React.FC = () => {
         <a href="#intro" className="hover:underline">Intro</a>
         <a href="#skillset" className="hover:underline">Skillset</a>
         <a href="#projects" className="hover:underline">Projects</a>
-        <a href="#contact" className="hover:underline">Contact</a>
+        {/*<a href="#contact" className="hover:underline">Contact</a>*/}
       </nav>
       <div className="flex ml-4">
         <a href="https://github.com/ownerng" target="_blank"
