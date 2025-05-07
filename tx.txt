@@ -1,0 +1,8 @@
+            <a 
+              href={project.liveUrl} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-2 rounded-full bg-white text-gray-800 hover:bg-gray-200 transition"
+            >
+              <ExternalLink size={20} />
+            </a>
