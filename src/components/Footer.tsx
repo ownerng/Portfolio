@@ -14,7 +14,7 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <h2 className={`text-2xl font-bold ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>
-              DevPortfolio
+              Jhonnatan()
             </h2>
           </div>
           
@@ -41,7 +41,7 @@ const Footer: React.FC<FooterProps> = ({ darkMode }) => {
               Diseñado con <Heart size={16} className="mx-1 text-red-500" /> en 2025
             </p>
             <p className={`text-sm mt-1 ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-              © {currentYear} Tu Nombre. Todos los derechos reservados.
+              © {currentYear} Jhonnatan Mendez. Todos los derechos reservados.
             </p>
           </div>
         </div>

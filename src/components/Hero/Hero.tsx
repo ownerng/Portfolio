@@ -18,7 +18,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
               <span className={`${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>Hola, soy</span>
               <br />
-              <span>Nombre Desarrollador</span>
+              <span>Jhonnatan Mendez</span>
             </h1>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">
               Desarrollador Fullstack
@@ -27,9 +27,8 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
               Experto en crear aplicaciones web modernas con React, TypeScript, Node.js y más. Transformo ideas en productos digitales excepcionales.
             </p>
             <div className="flex space-x-4">
-              <SocialButton href="https://Github.com/" icon={<Github />} darkMode={darkMode} />
-              <SocialButton href="https://linkedin.com/" icon={<Linkedin />} darkMode={darkMode} />
-              <SocialButton href="https://twitter.com/" icon={<Twitter />} darkMode={darkMode} />
+              <SocialButton href="https://github.com/ownerng" icon={<Github />} darkMode={darkMode} />
+              <SocialButton href="https://www.linkedin.com/in/jhonnatan-mendez/" icon={<Linkedin />} darkMode={darkMode} />
             </div>
             <div className="mt-8">
               <a 
@@ -61,7 +60,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
           <div className="md:w-1/2 flex justify-center">
             <div className={`w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 ${darkMode ? 'border-blue-500' : 'border-blue-600'}`}>
               <img 
-                src="/api/placeholder/400/400" 
+                src="https://file.garden/aBr7cUHDNAeZ_VnW/pfp.jpg" 
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />

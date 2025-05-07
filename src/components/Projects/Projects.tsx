@@ -22,67 +22,17 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-Commerce App",
-      description: "Plataforma de comercio electrónico completa con carrito de compras, pagos y panel de administración.",
-      image: "/api/placeholder/600/400",
-      tags: ["React", "Node.js", "MongoDB", "Redux"],
+      title: "Wrapped AI",
+      description: "Aplicacion movil de IA que analizaba las conversaciones de WhatsApp y generaba un analisis de las mismas.",
+      image: "https://file.garden/aBr7cUHDNAeZ_VnW/wrappedia.jpeg",
+      tags: ["Flutter", "Fastapi"],
       GithubUrl: "https://Github.com/",
       liveUrl: "https://example.com",
       category: "Fullstack"
     },
-    {
-      id: 2,
-      title: "Dashboard Analítico",
-      description: "Panel de control con visualizaciones de datos en tiempo real para monitoreo de métricas empresariales.",
-      image: "/api/placeholder/600/400",
-      tags: ["React", "TypeScript", "D3.js", "Firebase"],
-      GithubUrl: "https://Github.com/",
-      liveUrl: "https://example.com",
-      category: "Frontend"
-    },
-    {
-      id: 3,
-      title: "API de Gestión de Tareas",
-      description: "API RESTful para la gestión de tareas con autenticación, roles y permisos.",
-      image: "/api/placeholder/600/400",
-      tags: ["Node.js", "Express", "PostgreSQL", "JWT"],
-      GithubUrl: "https://Github.com/",
-      liveUrl: "https://example.com",
-      category: "Backend"
-    },
-    {
-      id: 4,
-      title: "App de Gestión de Proyectos",
-      description: "Aplicación para la gestión de proyectos con seguimiento de tareas, colaboración en tiempo real y gráficos.",
-      image: "/api/placeholder/600/400",
-      tags: ["React", "Socket.io", "Node.js", "MongoDB"],
-      GithubUrl: "https://Github.com/",
-      liveUrl: "https://example.com",
-      category: "Fullstack"
-    },
-    {
-      id: 5,
-      title: "Aplicación de Clima",
-      description: "Aplicación del clima con geolocalización, pronósticos detallados y visualizaciones.",
-      image: "/api/placeholder/600/400",
-      tags: ["React", "TypeScript", "APIs externas"],
-      GithubUrl: "https://Github.com/",
-      liveUrl: "https://example.com",
-      category: "Frontend"
-    },
-    {
-      id: 6,
-      title: "Sistema de CMS",
-      description: "Sistema de gestión de contenido personalizado con editor WYSIWYG y control de versiones.",
-      image: "/api/placeholder/600/400",
-      tags: ["React", "Node.js", "GraphQL", "MongoDB"],
-      GithubUrl: "https://Github.com/",
-      liveUrl: "https://example.com",
-      category: "Fullstack"
-    }
   ];
 
-  const categories = ["Todos", "Frontend", "Backend", "Fullstack"];
+  const categories = ["Todos"];
   
   const filteredProjects = activeFilter === "Todos" 
     ? projects 
@@ -162,14 +112,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, darkMode }) => {
             >
               <Github size={20} />
             </a>
-            <a 
-              href={project.liveUrl} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="p-2 rounded-full bg-white text-gray-800 hover:bg-gray-200 transition"
-            >
-              <ExternalLink size={20} />
-            </a>
+
           </div>
         </div>
       </div>

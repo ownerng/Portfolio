@@ -27,11 +27,7 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
               excepcionales. Con una sólida experiencia en tecnologías frontend y backend, 
               me especializo en construir soluciones completas y escalables.
             </p>
-            <p className="mb-8">
-              Con más de 5 años de experiencia en la industria, he trabajado en diversos 
-              proyectos que van desde aplicaciones empresariales hasta startups innovadoras. 
-              Me encanta resolver problemas complejos y aprender continuamente nuevas tecnologías.
-            </p>
+
             <div className="flex flex-wrap gap-2">
               {["JavaScript", "TypeScript", "React", "Node.js", "Express", "MongoDB", "PostgreSQL", "AWS"].map((tech) => (
                 <span 

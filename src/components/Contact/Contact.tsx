@@ -73,7 +73,7 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
                 <ContactInfo 
                   icon={<Mail />} 
                   title="Email" 
-                  value="tu-email@ejemplo.com" 
+                  value="jhonnatandavid34mc@gmail.com" 
                   href="mailto:tu-email@ejemplo.com"
                   darkMode={darkMode}
                 />
@@ -81,15 +81,15 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
                 <ContactInfo 
                   icon={<Phone />} 
                   title="Teléfono" 
-                  value="+34 123 456 789" 
-                  href="tel:+34123456789"
+                  value="+57 3103040673" 
+                  href="tel:+573103040673"
                   darkMode={darkMode}
                 />
                 
                 <ContactInfo 
                   icon={<MapPin />} 
                   title="Ubicación" 
-                  value="Madrid, España" 
+                  value="Colombia" 
                   darkMode={darkMode}
                 />
               </div>
@@ -97,9 +97,8 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
               <div className="mt-8">
                 <h4 className="text-lg font-medium mb-4">Sígueme</h4>
                 <div className="flex space-x-4">
-                  <SocialLink darkMode={darkMode} href="https://github.com/" name="GitHub" />
-                  <SocialLink darkMode={darkMode} href="https://linkedin.com/" name="LinkedIn" />
-                  <SocialLink darkMode={darkMode} href="https://twitter.com/" name="Twitter" />
+                  <SocialLink darkMode={darkMode} href="hub.com/ownerng" name="GitHub" />
+                  <SocialLink darkMode={darkMode} href="https://www.linkedin.com/in/jhonnatan-mendez/" name="LinkedIn" />
                 </div>
               </div>
             </div>

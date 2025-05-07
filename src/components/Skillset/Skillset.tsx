@@ -17,16 +17,17 @@ const Skills: React.FC<SkillsProps> = ({ darkMode }) => {
     { name: "JavaScript", level: 90, category: "Frontend" },
     { name: "TypeScript", level: 85, category: "Frontend" },
     { name: "React", level: 90, category: "Frontend" },
-    { name: "Redux", level: 80, category: "Frontend" },
-    { name: "Next.js", level: 75, category: "Frontend" },
+    { name: "React Native", level: 50, category: "Frontend" },
+    { name: "Flutter", level: 90, category: "Frontend" },
     { name: "Tailwind CSS", level: 85, category: "Frontend" },
     
     // Backend
     { name: "Node.js", level: 85, category: "Backend" },
     { name: "Express", level: 80, category: "Backend" },
     { name: "MongoDB", level: 75, category: "Backend" },
+    { name: "Django", level: 70, category: "Backend" },
+    { name: "Fastapi", level: 80, category: "Backend" },
     { name: "PostgreSQL", level: 70, category: "Backend" },
-    { name: "GraphQL", level: 65, category: "Backend" },
     { name: "RESTful APIs", level: 90, category: "Backend" },
     
     // Otros

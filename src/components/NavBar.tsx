@@ -20,7 +20,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <h1 className={`text-2xl font-bold ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>
-                DevPortfolio
+                Jhonnatan()
               </h1>
             </div>
           </div>
