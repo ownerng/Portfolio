@@ -26,7 +26,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
       description: "Aplicacion movil de IA que analizaba las conversaciones de WhatsApp y generaba un analisis de las mismas.",
       image: "https://file.garden/aBr7cUHDNAeZ_VnW/wrappedia.jpeg",
       tags: ["Flutter", "Fastapi"],
-      GithubUrl: "https://Github.com/",
+      GithubUrl: "https://github.com/Camel-Project/whatsapp-wrapped-app",
       liveUrl: "https://example.com",
       category: "Fullstack"
     },
