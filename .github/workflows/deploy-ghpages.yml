@@ -8,6 +8,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions: # <<< Añade esta sección
+      contents: write # Permite escribir en el repositorio
+      pages: write    # Permite gestionar GitHub Pages
+      id-token: write # Necesario para la autenticación de Pages
     steps:
       - name: Checkout
         uses: actions/checkout@v2
